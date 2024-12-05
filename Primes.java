@@ -39,7 +39,7 @@ public class Primes {
 
     }
     int percectage = ((count) * 100)/finaln;
-    System.out.println(" There are " + count + " primes between 2 and " + finaln + " " + percectage + "% are primes");
+    System.out.println(" There are " + count + " primes between 2 and " + finaln + " " + percectage + " % are primes");
     
 }
 public static boolean primecheck(int p){
