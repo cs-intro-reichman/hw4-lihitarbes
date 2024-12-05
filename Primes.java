@@ -29,7 +29,7 @@ public class Primes {
         }
         
 
-    
+    System.out.println("Prime numbers up to " + finaln + ":");
     for (int i =2; i < finaln+1; i++){
         if( isprime[i] == true ) {
             System.out.println(i);
@@ -39,7 +39,7 @@ public class Primes {
 
     }
     int percectage = ((count) * 100)/finaln;
-    System.out.println(" there are " + count + " between 2 and " + finaln + " " + percectage + "%  are primes");
+    System.out.println(" There are " + count + " primes between 2 and " + finaln + " " + percectage + "% are primes");
     
 }
 public static boolean primecheck(int p){
