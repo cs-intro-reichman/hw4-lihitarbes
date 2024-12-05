@@ -8,7 +8,7 @@ public class MyString {
 
         System.out.println("Testing contains:");
         System.out.println(contains("unhappy", "happy")); // true
-        System.out.println(contains("happy", "unhappy")); // false
+        System.out.println(contains("synergy", "We")); // false
         System.out.println(contains("historical", "story")); // false
         System.out.println(contains("psychology", "psycho")); // true
         System.out.println(contains("personality", "son")); // true
@@ -38,7 +38,7 @@ public class MyString {
         return false;
       }
 
-      for(int i=0; i<str1.length(); i++){
+      for(int i=0; i<str1.length()-str2.length(); i++){
         boolean iscontains = true;
             for( int j=0; j<str2.length(); j++){
                 if(str1.charAt(j+i) != str2.charAt(j)){
